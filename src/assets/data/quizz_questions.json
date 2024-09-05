@@ -1,0 +1,77 @@
+{
+  "title": "Você é uma pessoa Diurna ou Noturna?",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Qual o horário ideal para acordar?",
+      "options": [
+        { "id": 1, "name": "Seis horas!", "alias": "A" },
+        { "id": 2, "name": "Depois das 8h", "alias": "B" },
+        { "id": 3, "name": "No máximo até as 8h", "alias": "A" },
+        { "id": 4, "name": "Hora para acordar? é de comer?", "alias": "B" }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "Você se sente produtivo ao acordar?",
+      "options": [
+        {
+          "id": 1,
+          "name": "Sim, faço tudo que posso o quanto antes",
+          "alias": "A"
+        },
+        {
+          "id": 2,
+          "name": "Deixo o que eu puder para fazer no fim do dia",
+          "alias": "B"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "Você tem facilidade em ficar acordado até tarde mesmo tendo acordado mais cedo?",
+      "options": [
+        {
+          "id": 1,
+          "name": "Não, quando sinto sono a noite, não consigo fazer mais nada",
+          "alias": "A"
+        },
+        { "id": 2, "name": "Sim", "alias": "B" },
+        {
+          "id": 3,
+          "name": "Depende de quantas horas dormi nos outros dias",
+          "alias": "B"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "Você tem facilidade em ficar acordado de manhã?",
+      "options": [
+        { "id": 1, "name": "Não", "alias": "B" },
+        { "id": 2, "name": "Sim", "alias": "A" },
+        {
+          "id": 3,
+          "name": "Sou obrigado a ficar acordado de manhã, porém não queria",
+          "alias": "B"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "Você se considera alguém de bom humor de manhã?",
+      "options": [
+        { "id": 1, "name": "Sim, sempre alegro todos", "alias": "A" },
+        {
+          "id": 2,
+          "name": "Prefiro não falar com ninguém, se possível",
+          "alias": "B"
+        }
+      ]
+    }
+  ],
+  "results": {
+    "A": "Você muito provavelmente é uma pessoa DIURNA!",
+    "B": "Você muito provavelmente é uma pessoa NOTURNA!"
+  }
+}
